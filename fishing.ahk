@@ -8,7 +8,7 @@ SearchForEasyLetters() {
     , w: { x_coord: 1210, y_coord: 865 }
     , a: { x_coord: 1162, y_coord: 970 }
     , x: { x_coord: 1191, y_coord: 862 }
-    , d: { x_coord: 1134, y_coord: 863 } }
+    , d: { x_coord: 1192, y_coord: 934 } }
 
   For key, coords in key_coordinates
   {
