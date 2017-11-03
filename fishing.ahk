@@ -39,6 +39,12 @@ SearchForE(){
     return "e"
 }
 
+CastLine(){
+  PixelSearch, px, py, 942, 538, 942, 538, 0x33C1BB, 3, Fast RGB
+  if !ErrorLevel
+    Click
+}
+
 F2::
 enabled = 0
 return
@@ -64,5 +70,6 @@ while enabled
         break
     }
   }
+  CastLine()
 }
 return
